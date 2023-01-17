@@ -1,3 +1,43 @@
-.App {
+body {
+  background-image: url('/home/valeria/projeto-10.3/sd-024-b-project-solar-system/src/images/background.png');
+  color: white;
+}
+
+.planet-title {
+  border: 1px solid white;
+  border-radius: 10px;
+  display: flex;
+  font-size: 50px;
+  justify-content: center;
+  margin: 100px;
   text-align: center;
+}
+
+h1 {
+  font-size: 70px;
+  text-align: center;
+}
+
+.img-container {
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 20px;
+  margin-left: 80px;
+  text-align: center;
+}
+
+img {
+  width: 210px;
+}
+
+.mission-card {
+  border: 1px solid white;
+  flex-direction: row;
+  width: 100%;
+}
+
+.mission-card-pai {
+  border: 2px solid green;
+  display: flex;
+  width: 100%;
 }
